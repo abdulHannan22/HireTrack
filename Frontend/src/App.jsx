@@ -8,8 +8,8 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import KanbanPage from "./pages/KanbanPage";
-// import ApplicationsPage from "./pages/ApplicationsPage";
-// import StatsPage from "./pages/StatsPage";
+import ApplicationsPage from "./pages/ApplicationsPage";
+import StatsPage from "./pages/StatsPage";
 
 function Layout({ children }) {
   return (
@@ -30,7 +30,7 @@ export default function App() {
           <Route path="/register" element={<Register />} />
 
           {/* Protected routes (placeholder) — uncomment when pages exist */}
-          {/*
+          
           <Route
             path="/board"
             element={
@@ -55,7 +55,7 @@ export default function App() {
               </ProtectedRoute>
             }
           />
-          */}
+         
 
           {/* Default redirect */}
           <Route path="/" element={<Navigate to="/login" replace />} />
