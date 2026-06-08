@@ -1,0 +1,31 @@
+# Node
+node_modules/
+
+# Build
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# MongoDB & system files
+*.pem
+
+# Coverage
+coverage/
+
+# Lockfiles (optional)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
